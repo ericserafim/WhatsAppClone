@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="whatsappclone.ericserafim.com.whatsappclone.activity.LoginActivity"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical|center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/largura_logo"
+        android:layout_height="@dimen/altura_logo"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:id="@+id/edit_login_email"
+        android:hint="@string/digite_email"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/edit_login_email"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit_login_senha"
+        android:hint="@string/digite_senha"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/botao_logar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/bt_logar"
+        android:layout_below="@+id/edit_login_senha"
+        android:layout_alignParentStart="true"
+        android:theme="@style/botaoPadrao"/>
+
+    <TextView
+        android:text="@string/nao_tem_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/bt_cadastre_se"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/bt_logar"
+        android:layout_centerHorizontal="true"
+        android:onClick="abrirCadastroUsuario" />
+
+</RelativeLayout>

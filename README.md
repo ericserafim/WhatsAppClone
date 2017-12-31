@@ -13,7 +13,7 @@ Realize um build, se nenhum erro for apresentado você poderá rodar diretamente
 O ideal é ter pelo menos o aplicativo rodando em dois dispotivos ao mesmo tempo, assim será possível simular uma conversa.
 
 Vídeo do aplicativo em funcionamento.
-
+[![Vídeo de demostração](https://img.youtube.com/vi/VvOocvQb7Xw/0.jpg)](https://www.youtube.com/watch?v=VvOocvQb7Xw)
 
 ## História
 

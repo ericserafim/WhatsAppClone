@@ -22,7 +22,7 @@ O meu objetivo com esse aplicativo era utilizar os recursos do Firebase em um ap
 ## Créditos
 
 Eric Serafim<br>
-e-mail: mailto:ericserafim@gmail.com<br>
+e-mail: ericserafim@gmail.com<br>
 linkedin: https://www.linkedin.com/in/ericserafim<br>
 
 ## Licença
